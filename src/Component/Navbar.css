@@ -1,0 +1,32 @@
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10vw;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigateBtn > a{
+    color: white;
+}
+
+.navigateBtn > a:hover{
+    color: rgb(121, 147, 242);
+}

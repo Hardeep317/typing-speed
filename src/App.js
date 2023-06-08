@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import { useEffect, useRef, useState } from "react";
+import randomWords from "random-words";
+import './App.css'
+import AllRoutes from "./AllRoutes";
+import Navbar from "./Component/Navbar";
+
+const NUM_OF_WORDS = 500;
+const SECONDS = 60;
 
 function App() {
+  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <AllRoutes />
     </div>
   );
 }

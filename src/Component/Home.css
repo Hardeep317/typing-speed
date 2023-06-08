@@ -1,0 +1,49 @@
+.imgContainer{
+    background-image: url('https://onlinetyping.org/images/typing-test.jpg?ezimgfmt=ngcb20/notWebP');
+    height: 70vh;
+    width: 90vw;
+    margin: 30px auto;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    display: flex;
+    align-content:end ;
+}
+
+.btn{
+    width: 170px;
+    font-size: 20px;
+    padding: 14px 23px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(49, 48, 48);
+    color: white;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 340px;
+}
+
+.gbtn{
+    margin: auto;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+   background-color: aliceblue;
+   color: black;
+}
+
+.text{
+    height: 40vh;
+    width: 90vw;
+    display: flex;
+    align-content: center;
+    background-color: darkgray;
+    color: white;
+}
+
+.text > h2{
+    margin: auto;
+    font-size: 30px;
+}
+

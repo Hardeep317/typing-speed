@@ -1,0 +1,49 @@
+.containerLogin{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 20vh;
+    width: 30vw;
+    padding: 40px 25px;
+    border-radius: 12px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.LoginBtn{
+    display: block;
+    padding: 10px 17px;
+    background-color:cornflowerblue;
+    border: none;
+    color: white;
+    font-size: 19px;
+    margin: 15px auto;
+    cursor: pointer;
+}
+
+.navigateToSignUp{
+    color: black;
+}
+
+.LoginBtn:hover{
+    background-color: crimson;
+    border-radius: 12px;
+    transition: all 0.5s;
+}
+
+.para2{
+    font-size: 19px;
+    margin-left: -135px;
+}
+.para1{
+    font-size: 19px;
+    margin-left: -170px;
+}
+
+.email{
+    font-size: 16px;
+    padding: 4px 13px;
+}
+.password{
+    font-size: 16px;
+    padding: 4px 13px;
+}
